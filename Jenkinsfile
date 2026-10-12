@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        IMAGE_REPO = 'YOUR_DOCKERHUB_USERNAME/devops-cicd-webapp'
+        IMAGE_REPO = 'shameemdoc/devops-cicd-webapp'
         DOCKERHUB_CREDENTIALS = 'dockerhub-creds'
         K8S_NAMESPACE = 'devops-demo'
         K8S_DEPLOYMENT = 'webapp'
