@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: YOUR_DOCKERHUB_USERNAME/devops-cicd-webapp:initial
+          image: shameemdoc/devops-cicd-webapp:initial
           imagePullPolicy: Always
           ports:
             - containerPort: 80
